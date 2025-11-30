@@ -4,8 +4,6 @@
 
 Find the sum of all the multiples of 3 or 5 below 1000.*
 
-## Initial Approach
-Brute force, works well because upper limit is only 1000
 
 ## Personal Notes
 This was my second introduction to the site, also a long time since using C as a programming tool.
@@ -14,7 +12,7 @@ I wanted to use Python and Rust but I don't yet have the necessary knowledge eve
 ## Thought Process
 We need the multiples of 3 and 5 below a certain upper bound (in this case 1000). There could be a case where we could use 2 separate for loops counting all the multiples of 3 and 5 separately.
 The thing is, the time complexity could shoot up high, maybe a hardware parallel implementation with 2 modules ,one for counting the 3 multiples and one for the 5 multiples, could significantly lower the time and power costs
-For the C implementation, the brute force approach seems most reasonable because there seems to be a case for the 15 multiples being counted twice. All that said, further optimizations could prove undertaking the task significantly better
+For the C implementation, the brute force approach seems most reasonable because there seems to be a case for the 15 multiples being counted twice. All that said, further optimizations could prove more efficient on time and hardware constraints
 
 ## Initial Approach
 Brute force, works well because upper limit is only 1000
