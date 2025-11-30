@@ -28,4 +28,13 @@ Brute force, works well because upper limit is only 1000
 ## Future Work
 - [ ] Python implementation
 - [ ] Rust implementation  
-- [ ] Mathematical O(1) solution
+- [ ] Mathematical O(1) solution (implemented on 30/11/2025)
+
+## Mathematical implementation
+While the previous implementation was the first term intuition, it was not optimal.
+The time complexity was O(n) because it had to iterate every number up to n which was the upper bound minus 1
+
+using the Arithmetic series sum formula n*(n+1)/2 multiplying the sum by the multiplier (3,5 and 15) and dividing the upper_bound by the multiplier in each case.
+Time complexity went from O(n) to O(1) because there was only one line of code in terms of mathematical operations to be done.
+Even though for such small scale it may not matter, for larger implementations it could reduce costs and operational time significantly
+
