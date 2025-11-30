@@ -1,0 +1,22 @@
+This is the explanation/thought process behind the solution of problem 1, Multiples of 3 or 5.
+
+The problem is as follows,
+
+*If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.*
+
+This was my second introduction to the site,
+so I was thinking that I need to implement an algorithm in a programming language to make this work.
+The thing is I needed to select a programming language, for now I will be using C and then expanding to Python and Rust
+
+I needed to scan every number below 1000 (starting from 1 through 999) which is my upper bound and see which numbers when divided by 3 or 5 had 0 as the remainder
+
+So using the modulo operation (%) and a for loop should be sufficient to implement the algorithm.
+
+One could make a case for creating two separate for loops but they would have to account for the common numbers which are multiples of 15
+
+
+If you want to attempt it on your own pace, please do so but my solution for the problem (including an algorithm for any upper bound) is on the .c file
+
+Reminder to add python and Rust implementations
